@@ -1,0 +1,115 @@
+body{
+  font-family: sans-serif;
+  font-weight: normal;
+   background: #f1f1f1;
+
+}
+
+header{
+  background: #dcefe4;
+  display: table;
+  width: 100%;
+}
+
+
+footer{
+  padding: 20px;
+ text-align: center;
+ background: #ddd;
+ margin-top: 20px;
+}
+
+                                        /* INICIO LISTA MENU */
+nav{
+  margin: 0;
+  padding: 0;
+  float: right;
+
+}
+
+nav ul{
+  list-style-type: none;
+
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 80px;
+  padding-right: 70px;
+  padding-top: 25px;
+  position: relative;
+
+}
+
+nav a{
+  color: #232625;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color: white;
+
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #555;
+  position: absolute;
+  top: 0px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+
+}
+
+
+.logo_img{
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+  float: left;
+  padding: 10px 0;
+}
+
+.menu_principal{
+  list-style: none;
+
+}
+                                /* FIM LISTA MENU */
+                                /* Inicio site */
+.coluna_esquerda {
+float: left;
+width: 75%;
+}
+
+.coluna_direita {
+float: left;
+width: 25%;
+padding-left: 20px;
+}
+
+
+.imagens {
+background-color: #aaa;
+width: 100%;
+padding: 20px;
+}
+
+
+.cartao {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+
+.colunas:after {
+content: "";
+display: table;
+clear: both;
+}
