@@ -1,25 +1,29 @@
 body{
   font-family: sans-serif;
   font-weight: normal;
-   background: #f1f1f1;
+  margin: 0;
 
 }
 
 header{
-  background: #dcefe4;
   display: table;
   width: 100%;
 }
 
 
-footer{
-  padding: 20px;
- text-align: center;
- background: #ddd;
- margin-top: 20px;
+                                        /* INICIO LISTA MENU */
+.logo_img{
+margin-left: 20px;
+height: 50px;
+width: 50px;
+float: left;
+padding: 10px 0;
 }
 
-                                        /* INICIO LISTA MENU */
+.menu_principal{
+list-style: none;
+}
+
 nav{
   margin: 0;
   padding: 0;
@@ -69,47 +73,125 @@ nav a:hover::before{
 }
 
 
-.logo_img{
-  margin-left: 20px;
-  height: 50px;
-  width: 50px;
+
+
+                                    /* FIM LISTA MENU */
+                                    /* Inicio site */
+.parallax {
+background-image: url('img/parallax_1.jpg');
+height: 100%;
+/* Efeito de Scroll*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax_2 {
+background-image: url('img/parallax_2.jpg');
+/* Ocupar todo espaço */
+height: 100%;
+/* Efeito de Scroll*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*INICIO CARTOES DE NOTICIAS */
+
+
+
+
+/*FIM CARTOES DE NOTICIAS */
+.boxtexto{
+height:300px;
+font-size:36px;
+background-color: #00cc66;
+color: white;
+text-align: center;
+padding: 5px;
+}
+
+.btn_saibamais {
+	background-color:white;
+	border-radius:20px;
+  border-color: white;
+  border: 3px solid white;
+	display:inline-block;
+	color:#00cc66;
+	font-size:19px;
+	padding:15px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+  position: absolute;
+  left: 42%;
+}
+.btn_saibamais:hover {
+	background-color:#00cc66;
+  color: white;
+}
+.btn_saibamais:active {
+	position:relative;
+	top:1px;
+}
+
+
+                                  /* Footer */
+
+
+footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+
+}
+footer .col {
+  width: 190px;
+  height: auto;
   float: left;
-  padding: 10px 0;
+  box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: black;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+
+}
+.logo_footer{
+  height:100px;
+  height:100px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+footer p{
+ color: black;
+ font-family: inherit;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
 }
 
-.menu_principal{
-  list-style: none;
-
-}
-                                /* FIM LISTA MENU */
-                                /* Inicio site */
-.coluna_esquerda {
-float: left;
-width: 75%;
-}
-
-.coluna_direita {
-float: left;
-width: 25%;
-padding-left: 20px;
-}
-
-
-.imagens {
-background-color: #aaa;
-width: 100%;
-padding: 20px;
-}
-
-
-.cartao {
-background-color: white;
-padding: 20px;
-margin-top: 20px;
-}
-
-.colunas:after {
-content: "";
-display: table;
-clear: both;
+footer .col ul li:hover {
+  color: #ffffff;
 }
