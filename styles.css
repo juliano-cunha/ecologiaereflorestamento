@@ -13,9 +13,10 @@ header{
 
                                         /* INICIO LISTA MENU */
 .logo_img{
-margin-left: 20px;
+margin-left: 10px;
+margin-top: 5px;
 height: 50px;
-width: 50px;
+width: 250px;
 float: left;
 padding: 10px 0;
 }
@@ -38,9 +39,9 @@ nav ul{
 
 nav li{
   display: inline-block;
-  margin-left: 80px;
+  margin-left: 100px;
   padding-right: 70px;
-  padding-top: 25px;
+  padding-top: 15px;
   position: relative;
 
 }
@@ -52,7 +53,7 @@ nav a{
 }
 
 nav a:hover{
-  color: white;
+  color: gray;
 
 }
 
@@ -97,6 +98,58 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+
+			/* PAGINAS */
+.parallax_3 {
+background-image: url('img/parallax_3.jpg');
+height: 100%;
+/* Efeito de Scroll*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+
+}
+
+.parallax_4 {
+background-image: url('img/parallax_4.jpg');
+height: 100%;
+/* Efeito de Scroll*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+
+}
+
+.parallax_5 {
+background-image: url('img/parallax_5.jpg');
+height: 100%;
+/* Efeito de Scroll*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+
+}
+
+.parallax_6 {
+background-image: url('img/parallax_6.jpg');
+height: 100%;
+/* Efeito de Scroll*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center; 
+}
+
+			/* FIM PAGINAS */
+
 /*INICIO CARTOES DE NOTICIAS */
 
 
@@ -113,27 +166,112 @@ padding: 5px;
 }
 
 .btn_saibamais {
-	background-color:white;
+	background-color:#00cc66;
 	border-radius:20px;
   border-color: white;
   border: 3px solid white;
 	display:inline-block;
-	color:#00cc66;
+	color:white;
 	font-size:19px;
 	padding:15px 76px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
   position: absolute;
-  left: 42%;
+  left: 40%;
 }
 .btn_saibamais:hover {
-	background-color:#00cc66;
-  color: white;
+	background-color:white;
+  color: #00cc66;
 }
 .btn_saibamais:active {
-	position:relative;
-	top:1px;
+	position:absolute;
 }
+
+/* PAGINAS */
+.title {
+    height: 100vh;
+    padding: 2vw;
+    font-size: 4vw;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	color: white;
+}
+.title:first-of-type {
+    text-transform: uppercase;
+    font-size: 7vw;
+}
+
+.title_2 {
+    height: 100vh;
+    padding: 2vw;
+    font-size: 2vw;
+}
+.title_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	color: white;
+}
+.title_2:first-of-type {
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+
+.boxtexto_2{
+	font-size:16px;
+	margin-left:30px;
+	padding-right:30px;
+}
+
+.boxtexto_3{
+	position:absolute;
+	border: 3px solid white;
+	top:150px;
+	left:120px;
+	height:80%;
+	width:80%;
+	background-color:#00cc66;
+}
+
+.art1_a{
+	position:absolute;
+	border: 1.5px solid white;
+	top:50px;
+	left:50px;
+	height:200px;
+	width:250px;
+}
+
+.art1_b{
+	position:absolute;
+	top:95px;
+	left:325px;
+	color:white;
+}
+
+.art2_a{
+	position:absolute;
+	border: 1.5px solid white;
+	top:400px;
+	left:50px;
+	height:200px;
+	width:250px;
+}
+
+.art2_b{
+	position:absolute;
+	top:450px;
+	left:360px;
+	color:white;
+}
+/* FIM PAGINAS */
 
 
                                   /* Footer */
